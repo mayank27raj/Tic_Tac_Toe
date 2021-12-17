@@ -171,8 +171,6 @@ b7 = Button(root, text=' ', font=("Times", 20), height=3, width=6, bg="gray", co
 b8 = Button(root, text=' ', font=("Times", 20), height=3, width=6, bg="gray", command=lambda: b_click(b8))
 b9 = Button(root, text=' ', font=("Times", 20), height=3, width=6, bg="gray", command=lambda: b_click(b9))
 
-res = Button(root, text='Restart', font=("Times", 20), height=3, width=6, bg="white")
-
 b1.grid(row=0, column=0)
 b2.grid(row=0, column=1)
 b3.grid(row=0, column=2)
